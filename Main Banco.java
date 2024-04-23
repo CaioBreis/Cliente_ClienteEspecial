@@ -20,7 +20,7 @@ public class Banco {
         int cont;
 
 
-        funcionario d[] = new Cliente[3];
+        Cliente d[] = new Cliente[3];
         d[0]=new Cliente("Asdrubal",123, 200);
         System.out.println(" ");
         d[1]=new Cliente_Especial("Mariana",456, 3000,100);
