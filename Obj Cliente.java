@@ -5,7 +5,7 @@ public class Cliente {
     protected  int id;
     protected  double saldo;
 
-    public funcionario(String nome, int id, double saldo) {
+    public Cliente(String nome, int id, double saldo) {
         this.nome = nome;
         this.id = id;
         this.saldo = saldo;
