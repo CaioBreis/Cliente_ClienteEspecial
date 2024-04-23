@@ -22,6 +22,6 @@ public class Cliente extends ClienteEspecial {
 
     @Override
     public String toString() {
-        return "gerente{" + "Nome=" + this.nome + " ,id=" + this.id + " ,saldo=" + this.saldo + " ,limite=" + this.limite + "}";
+        return "Cliente Especial{" + "Nome=" + this.nome + " ,id=" + this.id + " ,saldo=" + this.saldo + " ,limite=" + this.limite + "}";
     }
 }
