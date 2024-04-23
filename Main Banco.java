@@ -8,7 +8,7 @@ import enti.Cliente_Especial;
 import java.util.Scanner;
 
 
-public class Empresa {
+public class Banco {
     public static void main(String[] args) {
 
 
