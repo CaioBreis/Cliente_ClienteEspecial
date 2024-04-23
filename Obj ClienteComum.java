@@ -1,15 +1,16 @@
 package enti;
 
-public class Cliente {
+public class ClienteComum {
     protected String nome;
-    protected  int id;
-    protected  double saldo;
+    protected int id;
+    protected double saldo;
 
-    public Cliente(String nome, int id, double saldo) {
+    public ClienteComum(String nome, int id, double saldo) {
         this.nome = nome;
         this.id = id;
         this.saldo = saldo;
     }
+
     public String getNome() {
         return nome;
     }
@@ -26,27 +27,26 @@ public class Cliente {
         this.id = id;
     }
 
-    public double getSalario() {
+    public double getSaldo() {
         return saldo;
     }
 
-    public void setSalario(double salario) {
-        this.saldo = salario;
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
     }
-    public void alteraSalario(double deposito) {
-         this.saldo += deposito;
 
+    public void alteraSaldo(double deposito) {
+        this.saldo += deposito;
     }
-    public double nalteraSalario(double saque) {
-       saldo= saldo - saque;
+
+    public double nalteraSaldo(double saque) {
+        saldo = saldo - saque;
         return this.saldo;
-
     }
-
 
     @Override
     public String toString() {
-        return "funcionario{" +
+        return "ClienteComum{" +
                 "nome='" + this.nome + '\'' +
                 ", id=" + id +
                 ", saldo=" + saldo +
