@@ -15,7 +15,7 @@ public class Cliente_Especial extends ClienteComum {
             return saldo;
         } else {
             System.out.println("Limite excedido.");
-            return saldo; // ou retorne um valor específico, dependendo do comportamento desejado
+            return saldo; 
         }
     }
 
