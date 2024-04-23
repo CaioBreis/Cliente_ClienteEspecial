@@ -1,6 +1,6 @@
 package enti;
 
-public class cliente {
+public class Cliente {
     protected String nome;
     protected  int id;
     protected  double saldo;
