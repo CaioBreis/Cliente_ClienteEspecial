@@ -20,12 +20,12 @@ public class Banco {
         int cont;
 
 
-        funcionario d[] = new funcionario[3];
-        d[0]=new funcionario("Asdrubal",123, 200);
+        funcionario d[] = new Cliente[3];
+        d[0]=new Cliente("Asdrubal",123, 200);
         System.out.println(" ");
-        d[1]=new gerente("Mariana",456, 3000,100);
+        d[1]=new Cliente_Especial("Mariana",456, 3000,100);
         System.out.println(" ");
-        d[2]=new funcionario("Juan",789, 500);
+        d[2]=new Cliente("Juan",789, 500);
         System.out.println("-----------------------------");
 
 
